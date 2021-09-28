@@ -27,7 +27,7 @@
 
 
 .header {
-    background-image: url('../images/banner-bg.jpg');
+    background-image: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
