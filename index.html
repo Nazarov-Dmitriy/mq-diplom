@@ -11,12 +11,14 @@
 
 <body>
   <div class="page">
-    <header class="header">
+   <header class="header">
       <div class="container_header">
         <div class="panel_header">
           <a href="/" class="logo">
-            <img class="logo_img" src="/svg/noemi-logo.svg" alt="логотип NOEMI"></a>
+            <img class="logo_img" src="./svg/noemi-logo.svg" alt="логотип NOEMI"></a>
           <nav class="menu">
+            <div class="menu-hamburger"><span></span>
+            </div>
             <ul class="menu_list">
               <li><a class="menu__item" href="#0">Главная</a></li>
               <li> <a class="menu__item" href="#0">посты</a></li>
@@ -33,7 +35,7 @@
         </div>
       </div>
     </header>
-    <div class="trends">
+      <div class="trends">
       <div class="trends-header">
         <h2 class="trends-title">Сейчас в тренде</h2>
 
@@ -83,11 +85,11 @@
           </div>
         </section>
       </div>
-    </div>
-    <div class="wraper">
+    </div>  
+    <div class="wraper">   
       <main class="main">
         <section class="main_content">
-          <div class="section_img"><img src="/images/last-post1.jpg" alt="news"></div>
+          <div class="section_img"><img src="./images/last-post1.jpg" alt="news"></div>
           <div class="news">
             <article class="card">
               <div class="category">
@@ -109,7 +111,7 @@
           </div>
         </section>
         <section class="main_content">
-          <div class="section_img"><img src="/images/last-post2.jpg" alt="news"></div>
+          <div class="section_img"><img src="./images/last-post2.jpg" alt="news"></div>
           <div class="news">
             <article class="card">
               <div class="category">
@@ -131,7 +133,7 @@
           </div>
         </section>
         <section class="main_content">
-          <div class="section_img"><img src="/images/last-post3.jpg" alt="news"></div>
+          <div class="section_img"><img src="./images/last-post3.jpg" alt="news"></div>
           <div class="news">
             <article class="card">
               <div class="category">
@@ -152,7 +154,7 @@
           </div>
         </section>
         <section class="main_content">
-          <div class="section_img"><img src="/images/last-post4.jpg" alt="news"></div>
+          <div class="section_img"><img src="./images/last-post4.jpg" alt="news"></div>
           <div class="news">
             <article class="card">
               <div class="category">
@@ -174,7 +176,7 @@
           </div>
         </section>
         <section class="main_content">
-          <div class="section_img"><img src="/images/last-post5.jpg" alt="news"></div>
+          <div class="section_img"><img src="./images/last-post5.jpg" alt="news"></div>
           <div class="news">
             <article class="card">
               <div class="category">
@@ -201,35 +203,35 @@
         <div class="aside-post">
           <h1 class="aside-post-title">Новые посты</h1>
           <section class="aside-post-cards">
-            <div class="aside-post-img"><img src="/images/2.jpg" alt="news"></div>
+            <div class="aside-post-img"><img src="./images/2.jpg" alt="news"></div>
             <div class="aside-card">
               <time class="aside-card-date" datetime="2019-06-10">14 июня 2019</time>
               <h3 class="aside-card-name"><a href="3"> 10 мест, ради которых стоит проснуться </a></h3>
             </div>
           </section>
           <section class="aside-post-cards">
-            <div class="aside-post-img"><img src="/images/151.jpg" alt="news.jpg" alt="news"></div>
+            <div class="aside-post-img"><img src="./images/151.jpg" alt="news.jpg" alt="news"></div>
             <div class="aside-card">
               <time class="aside-card-date" datetime="2019-06-10">14 июня 2019</time>
               <h3 class="aside-card-name"><a href="3"> Йога для домашних</a></h3>
             </div>
           </section>
           <section class="aside-post-cards">
-            <div class="aside-post-img"><img src="/images/45.jpg" alt="news" alt="news"></div>
+            <div class="aside-post-img"><img src="./images/45.jpg" alt="news" alt="news"></div>
             <div class="aside-card">
               <time class="aside-card-date" datetime="2019-06-10">14 июня 2019</time>
               <h3 class="aside-card-name"><a href="3">как мы превратили классное место в балкон</a></h3>
             </div>
           </section>
           <section class="aside-post-cards">
-            <div class="aside-post-img"><img src="/images/501.jpg" alt="news" alt="news"></div>
+            <div class="aside-post-img"><img src="./images/501.jpg" alt="news" alt="news"></div>
             <div class="aside-card">
               <time class="aside-card-date" datetime="2019-06-10">14 июня 2019</time>
               <h3 class="aside-card-name"><a href="3">Кулинарный подход к науке</a></h3>
             </div>
           </section>
           <section class="aside-post-cards">
-            <div class="aside-post-img"><img src="/images/7.jpg" alt="news"></div>
+            <div class="aside-post-img"><img src="./images/7.jpg" alt="news"></div>
             <div class="aside-card">
               <time class="aside-card-date" datetime="2019-06-10">14 июня 2019</time>
               <h3 class="aside-card-name"><a href="3">лучшие прически для распущенных волос</a></h3>
@@ -252,7 +254,7 @@
               <span class="visually-hidden">Подписатся на рассылку</span>
               <input class="field-mailing" name="query" placeholder="Ваш email-адрес" required>
             </label>
-            <button class="button-mailing">Подписать ся</button>
+            <button class="button-mailing">Подписаться</button>
           </form>
         </div>
         <div class="aside-tags">
@@ -280,14 +282,18 @@
 
           </ul>
         </div>
-      </aside>
+      </aside>  
 
-    </div>
-    <div class="shop">
+    </div> 
+     <div class="shop">
       <h1 class="shop-title">Наши изделия</h1>
       <div class="shop-cards-wrap">
         <section class="shop-cards">
-          <img class="shop-img" src="/images/shop-item-desk1.jpg" alt="">
+          <picture class="shop-img">
+            <source media="(max-width:1200px)" srcset="./images/shop-item-tablet1.jpg">
+            <source media="(max-width:647px)" srcset="/.images/shop-item-mobile1.jpg">
+            <img src="/images/shop-item-desk1.jpg" alt="shop image">
+          </picture>
           <div class="shop-border">
             <div class="shop-card">
               <h2 class="shop-card-title">Подушки на диван</h2>
@@ -302,7 +308,11 @@
 
         </section>
         <section class="shop-cards">
-          <img class="shop-img" src="/images/shop-item-desk2.jpg" alt="">
+          <picture class="shop-img">
+            <source media="(max-width:1200px)" srcset="./images/shop-item-tablet2.jpg">
+            <source media="(max-width:647px)" srcset="./images/shop-item-mobile2.jpg">
+            <img src="/images/shop-item-desk2.jpg" alt="shop image">
+          </picture>
           <div class="shop-border">
             <div class="shop-card">
               <h2 class="shop-card-title">Кукла «Зайчик»</h2>
@@ -316,7 +326,11 @@
           </div>
         </section>
         <section class="shop-cards">
-          <img class="shop-img" src="/images/shop-item-desk3.jpg" alt="">
+          <picture class="shop-img">
+            <source media="(max-width:1200px)" srcset="./images/shop-item-tablet3.jpg">
+            <source media="(max-width:647px)" srcset="/images/shop-item-mobile3.jpg">
+            <img src="/images/shop-item-desk3.jpg" alt="shop image">
+          </picture>
           <div class="shop-border">
             <div class="shop-card">
               <h2 class="shop-card-title">Шестиугольная рамка</h2>
@@ -331,7 +345,7 @@
           </div>
         </section>
       </div>
-    </div>
+    </div> 
     <footer class="footer">
       <ul class="socials">
         <li class="socials-item">
@@ -353,10 +367,11 @@
         </li>
       </ul>
       <div class="copyrights">
-        <span class="copyrights-text"><a class="copyrights-link" href="#0">Copyright © 2009–2019 City Blog LLC.</a></span>
+        <span class="copyrights-text"><a class="copyrights-link" href="#0">Copyright © 2009–2019 City Blog
+            LLC.</a></span>
       </div>
-    </footer>
-  </div>
+    </footer>  
+  </div> 
 
 
 </body>
