@@ -3,7 +3,7 @@
     src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
         url("../fonts/OpenSans-Bold.ttf") format("truetype"),
         url("../fonts/OpenSans-Bold.woff") format("woff");
-    font-weight: 900;
+
 }
 
 @font-face {
@@ -33,7 +33,6 @@
 
 
 .popup {
-    display: none;
     position: absolute;
     width: 390px;
     padding: 46px 30px 0 30px;
@@ -46,8 +45,14 @@
     background-color: #ffffff;
 }
 
-/* .page::after {
+.popup-wrap {
     display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-wrap::before {
+
     content: "";
     display: block;
     position: absolute;
@@ -57,8 +62,8 @@
     opacity: 0.6;
     width: 100%;
     height: 100%;
-    z-index: 2;
-} */
+    z-index: 6;
+}
 
 .popup-title {
     font-family: "Bold";
@@ -485,7 +490,7 @@
 .card-date,
 .author {
     display: inline-block;
-    margin-top: 28spx;
+    margin-top: 28px;
 }
 
 .card-date {
@@ -599,13 +604,17 @@
     background-color: #323232;
 }
 
+.search-group-from {
+    display: flex;
+}
+
 .search-group {
     width: 100%;
     display: flex;
 }
 
 .field-seach {
-    width: calc(100% - 48px);
+    width: 100%;
     background-color: #f4f7f6;
     border: none;
     border-bottom: 1px solid #ebe7d7;
